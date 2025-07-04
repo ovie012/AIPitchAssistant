@@ -1,0 +1,25 @@
+#root,
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+button {
+  color: #f4f4f4;
+  font-family: "Merienda", cursive;
+}
+
+p,
+h5,
+h6,
+label,
+input,
+textarea {
+  color: #9CA3AF;
+  font-family: "Roboto Condensed", sans-serif;
+}
