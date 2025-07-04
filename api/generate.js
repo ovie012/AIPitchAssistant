@@ -4,7 +4,9 @@ export default async function handler(req, res) {
     }
 
 
-    console.log('Loaded API Key:', process.env.OPENAI_API_KEY);
+    console.log('Loaded API Key:', process.env.OPENAI_API_KEY); 
+    console.log('API Route Hit');
+    console.log('API KEY:', process.env.OPENAI_API_KEY);
 
     const { prompt } = req.body;
 

@@ -1,6 +1,5 @@
 export async function generatePitch(userIdea) {
     try {
-        console.log('Loaded API Key:', process.env.OPENAI_API_KEY);
         const response = await fetch('/api/generate', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
