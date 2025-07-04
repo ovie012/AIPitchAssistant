@@ -17,7 +17,7 @@ export async function generatePitch(userIdea) {
         console.error('Error calling backend:', error);
         throw error;
     }
-}
+};
 
 
 // export async function generatePitch(userIdea) {
